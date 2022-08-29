@@ -14,6 +14,7 @@ Steps:
 
 Activate virtual environment
 ```
+python -m venv env
 source env/bin/activate
 ```
 
@@ -36,11 +37,11 @@ USER=<your_user>
 
 To run the project for the first time
 ```
-python aggregator.py setup    
+python aggregator.py setup
 ```
 To update the database (in case the values in the prod table change)
 ```
-python aggregator.py 
+python aggregator.py
 ```
 
 # Additional info
