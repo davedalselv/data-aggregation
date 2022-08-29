@@ -10,6 +10,28 @@ Steps:
 - Exporting the new DataFrame to a csv file
 - Closing connection
 
+# Setup
+
+Activate virtual environment
+```
+source env/bin/activate
+```
+
+Install packages
+```
+pip install -r requirements.txt
+```
+
+Setup a psql database.
+
+Create a .env file in the project root folder and add the details of your database to establish a connection.
+```
+HOST=<your_host>
+PORT=<your_port>
+DBNAME=<your_dbname>
+USER=<your_user>
+```
+
 # Usage
 
 To run the project for the first time
